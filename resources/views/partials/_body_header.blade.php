@@ -60,7 +60,7 @@
                                     <div class=" p-0 ">
                                         <ul class="dropdown-menu-1 list-group list-group-flush">
                                             <?php
-                                            $language_option = sitesetupSession('get')->language_option ?? ["ar","nl","en","fr","de","hi","it"];
+                                            $language_option = sitesetupSession('get')->language_option ?? ["ar","nl","en","fr","de","hi","it", "id"];
                                             if (!empty($language_option)) {
                                                 $language_array = languagesArray($language_option);
                                             }
